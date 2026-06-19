@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
-import '../../core/theme/app_colors.dart';
 import 'package:provider/provider.dart';
+import 'package:fl_chart/fl_chart.dart';
+import 'package:animations/animations.dart';
+
+import '../../core/theme/app_colors.dart';
+import '../../features/income/widgets/income_card.dart';
+import '../../features/calendar/widgets/calendar_widget.dart';
+import '../../features/water/widgets/water_card.dart';
+import '../../features/analytics/widgets/analytics_card.dart';
 import '../../features/income/screens/income_screen.dart';
 import '../../features/calendar/screens/calendar_screen.dart';
 import '../../features/water/screens/water_screen.dart';
 import '../../features/analytics/screens/analytics_screen.dart';
+import '../../features/ai_agent/screens/ai_agent_screen.dart';
 import 'floating_ai_button.dart';
 
 class DashboardHome extends StatelessWidget {
